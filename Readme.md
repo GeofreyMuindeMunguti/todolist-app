@@ -9,6 +9,7 @@
 > - clone the project
 > - run ***npm i***
 > - ensure mongo deamon is running
+> - create a folder 'database_autobackup' in the project root directory
 
 >**Environment Variables**
 - Create a file in the root directory of the project and name it .env
