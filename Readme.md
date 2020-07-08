@@ -13,8 +13,10 @@
 >**Environment Variables**
 - Create a file in the root directory of the project and name it .env
 - Add the folling inside the .env file. 
-PORT="Port on which the server will run" eg. 3000
-DATABASEURL="The database url" eg.mongodb://localhost:27017/todo
+PORT="Port on which the server will run" eg. 3000  
+
+DATABASEURL="The database url" eg.mongodb://localhost:27017/todo  
+
 SECRETE="A string which is the secrete"eg. todoappsecrete  
 
 EMAILPORT="Outgoing email server port" eg. 465  
