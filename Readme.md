@@ -37,6 +37,6 @@ DATABASEPORT="The port of the db process"eg. 27017
 
 > ### Making api calls**
 **Pass these in the Headers**
->  > ***All endpoints exept [ Method: POST resource: /api/v1/users, Method: DELETE resource: /api/v1/users, /api/v1/users/login,  /api/v1/users/token, /api/v1/users/resetpass]***
+>  > ***All endpoints except [ Method: POST resource: /api/v1/users, Method: DELETE resource: /api/v1/users, /api/v1/users/login,  /api/v1/users/token, /api/v1/users/resetpass]***
 >  - Pass the token received on login in the headers as token
 >  - For the named endpoints above, pass the secrete set in the .env file in the headers as secrete
