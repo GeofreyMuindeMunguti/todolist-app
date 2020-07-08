@@ -15,14 +15,22 @@
 - Add the folling inside the .env file. 
 PORT="Port on which the server will run" eg. 3000
 DATABASEURL="The database url" eg.mongodb://localhost:27017/todo
-SECRETE="A string which is the secrete"eg. todoappsecrete
-EMAILPORT="Outgoing email server port" eg. 465
-EMAILHOST="Email host" eg. smtp.gmail.com
-EMAILUSER="User email" eg. user@domain.com
-EMAILPASS="User email password"
-DATABASEHOST="The address of the database"eg. localhost
-DATABASENAME="Name of the database" eg. todo
-DATABASEPORT="The port of the db process"eg. 27017
+SECRETE="A string which is the secrete"eg. todoappsecrete  
+
+EMAILPORT="Outgoing email server port" eg. 465  
+
+EMAILHOST="Email host" eg. smtp.gmail.com  
+
+EMAILUSER="User email" eg. user@domain.com  
+
+EMAILPASS="User email password"  
+
+DATABASEHOST="The address of the database"eg. localhost  
+
+DATABASENAME="Name of the database" eg. todo  
+
+DATABASEPORT="The port of the db process"eg. 27017  
+
 
 > **Run**
 > - Run ***node server.js***
